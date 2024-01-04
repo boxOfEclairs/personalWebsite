@@ -576,48 +576,32 @@ video {
   height: 7.5rem;
 }
 
-.w-\[15rem\] {
-  width: 15rem;
-}
-
-.w-\[30rem\] {
-  width: 30rem;
-}
-
-.w-\[45rem\] {
-  width: 45rem;
+.h-\[9\.3125rem\] {
+  height: 9.3125rem;
 }
 
 .w-screen {
   width: 100vw;
 }
 
-.grid-cols-6 {
-  grid-template-columns: repeat(6, minmax(0, 1fr));
-}
-
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.flex-row {
-  flex-direction: row;
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-cols-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.grid-rows-2 {
+  grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 
 .place-items-center {
   place-items: center;
-}
-
-.justify-end {
-  justify-content: flex-end;
-}
-
-.justify-around {
-  justify-content: space-around;
-}
-
-.justify-self-start {
-  justify-self: start;
 }
 
 .bg-accentColor {
@@ -635,24 +619,16 @@ video {
   background-color: rgb(244 233 205 / var(--tw-bg-opacity));
 }
 
-.pl-\[2\.69rem\] {
-  padding-left: 2.69rem;
-}
-
-.pr-\[2\.69rem\] {
-  padding-right: 2.69rem;
-}
-
-.pl-\[3\.25rem\] {
-  padding-left: 3.25rem;
-}
-
-.pr-\[3\.25rem\] {
-  padding-right: 3.25rem;
+.pl-16 {
+  padding-left: 4rem;
 }
 
 .pl-\[4\.5rem\] {
   padding-left: 4.5rem;
+}
+
+.pr-16 {
+  padding-right: 4rem;
 }
 
 .pr-\[4\.5rem\] {
@@ -671,6 +647,10 @@ video {
   text-align: end;
 }
 
+.font-\[argesta\] {
+  font-family: argesta;
+}
+
 .font-\[chromate\] {
   font-family: chromate;
 }
@@ -683,25 +663,17 @@ video {
   font-size: 2.1875rem;
 }
 
-.text-title {
-  font-size: 15.625rem;
-}
-
-.text-\[3\.125rem\] {
-  font-size: 3.125rem;
-}
-
-.text-\[4\.0625rem\] {
-  font-size: 4.0625rem;
-}
-
 .text-\[2\.8125rem\] {
   font-size: 2.8125rem;
 }
 
-.text-mainColor {
+.text-title {
+  font-size: 15.625rem;
+}
+
+.text-\[\#F4F4f4\] {
   --tw-text-opacity: 1;
-  color: rgb(244 233 205 / var(--tw-text-opacity));
+  color: rgb(244 244 244 / var(--tw-text-opacity));
 }
 
 .text-accentColor {
@@ -709,9 +681,9 @@ video {
   color: rgb(23 28 26 / var(--tw-text-opacity));
 }
 
-.text-\[\#F4F4f4\] {
+.text-mainColor {
   --tw-text-opacity: 1;
-  color: rgb(244 244 244 / var(--tw-text-opacity));
+  color: rgb(244 233 205 / var(--tw-text-opacity));
 }
 
 @font-face {
@@ -727,7 +699,7 @@ video {
 }
 
 @font-face {
-  font-family: "Argesta";
+  font-family: "Chromate";
 
   src: url("../src/fonts/Chromate-Regular.otf");
 }
