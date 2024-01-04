@@ -552,6 +552,10 @@ video {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .h-\[113\.625rem\] {
   height: 113.625rem;
 }
@@ -592,6 +596,14 @@ video {
   flex-basis: 16.666667%;
 }
 
+.grid-cols-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.grid-rows-6 {
+  grid-template-rows: repeat(6, minmax(0, 1fr));
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -618,6 +630,10 @@ video {
 
 .justify-items-center {
   justify-items: center;
+}
+
+.place-self-center {
+  place-self: center;
 }
 
 .bg-accentColor {
