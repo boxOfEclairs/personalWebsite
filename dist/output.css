@@ -621,6 +621,14 @@ video {
   height: 95rem;
 }
 
+.h-\[8rem\] {
+  height: 8rem;
+}
+
+.h-\[10rem\] {
+  height: 10rem;
+}
+
 .w-screen {
   width: 100vw;
 }
@@ -717,6 +725,11 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(244 244 244 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#859283\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(133 146 131 / var(--tw-bg-opacity));
 }
 
 .pl-16 {
