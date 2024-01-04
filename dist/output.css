@@ -544,6 +544,11 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .flex {
   display: flex;
 }
@@ -580,8 +585,72 @@ video {
   height: 9.3125rem;
 }
 
+.h-\[85-rem\] {
+  height: 85-rem;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-\[85rem\] {
+  height: 85rem;
+}
+
+.h-\[90rem\] {
+  height: 90rem;
+}
+
+.h-\[5rem\] {
+  height: 5rem;
+}
+
+.h-\[80rem\] {
+  height: 80rem;
+}
+
+.h-px {
+  height: 1px;
+}
+
+.h-\[100rem\] {
+  height: 100rem;
+}
+
+.h-\[95rem\] {
+  height: 95rem;
+}
+
 .w-screen {
   width: 100vw;
+}
+
+.w-\[15rem\] {
+  width: 15rem;
+}
+
+.w-\[75rem\] {
+  width: 75rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.basis-1\/6 {
+  flex-basis: 16.666667%;
+}
+
+.basis-5\/6 {
+  flex-basis: 83.333333%;
+}
+
+.basis-\[3\.75rem\] {
+  flex-basis: 3.75rem;
+}
+
+.basis-\[8rem\] {
+  flex-basis: 8rem;
 }
 
 .grid-cols-2 {
@@ -600,8 +669,34 @@ video {
   grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 
+.grid-rows-4 {
+  grid-template-rows: repeat(4, minmax(0, 1fr));
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
 .place-items-center {
   place-items: center;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-0 {
+  border-width: 0px;
 }
 
 .bg-accentColor {
@@ -617,6 +712,11 @@ video {
 .bg-mainColor {
   --tw-bg-opacity: 1;
   background-color: rgb(244 233 205 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 244 244 / var(--tw-bg-opacity));
 }
 
 .pl-16 {
@@ -635,8 +735,24 @@ video {
   padding-right: 4.5rem;
 }
 
+.pl-12 {
+  padding-left: 3rem;
+}
+
+.pl-\[12\.5rem\] {
+  padding-left: 12.5rem;
+}
+
+.pt-\[2rem\] {
+  padding-top: 2rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .text-start {
@@ -659,21 +775,28 @@ video {
   font-family: larken;
 }
 
-.text-\[2\.1875rem\] {
-  font-size: 2.1875rem;
+.font-larken {
+  font-family: "Larken", sans-serif;
 }
 
-.text-\[2\.8125rem\] {
+.font-argesta {
+  font-family: "Argesta", sans-serif;
+}
+
+.text-label {
   font-size: 2.8125rem;
+}
+
+.text-text {
+  font-size: 1.5625rem;
 }
 
 .text-title {
   font-size: 15.625rem;
 }
 
-.text-\[\#F4F4f4\] {
-  --tw-text-opacity: 1;
-  color: rgb(244 244 244 / var(--tw-text-opacity));
+.text-labelSmall {
+  font-size: 1.875rem;
 }
 
 .text-accentColor {
@@ -684,6 +807,11 @@ video {
 .text-mainColor {
   --tw-text-opacity: 1;
   color: rgb(244 233 205 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(244 244 244 / var(--tw-text-opacity));
 }
 
 @font-face {

@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        'white': '#F4F4F4',
         'cream': '#F4E9CD',
         'dark': '#171C1A',
         'mainColor': '#F4E9CD',
@@ -19,6 +20,9 @@ module.exports = {
     },
     fontSize: {
       'title': '15.625rem',
+      'label': '2.8125rem',
+      'labelSmall': '1.875rem',
+      'text': '1.5625rem',
     }
   },
   plugins: [],
