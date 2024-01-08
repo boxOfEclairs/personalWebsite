@@ -19,11 +19,12 @@ module.exports = {
       }
     },
     fontSize: {
-      'title': '15.625rem',
+      'title': '9.375rem',
       'label': '2.8125rem',
       'labelSmall': '1.875rem',
-      'text': '1.5625rem',
-    }
+      'textDesktop': '1.5625rem',
+      'textMobile': '1.25rem',
+    },
   },
   plugins: [],
 }
